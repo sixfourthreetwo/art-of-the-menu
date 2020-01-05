@@ -334,6 +334,8 @@ body {
   padding-right: 0; }
 
 @media screen and (max-width: 64em) {
+
+
   .md-col-1 {
     -ms-flex-preferred-size: 8.33333%;
     flex-basis: 8.33333%; }
@@ -688,6 +690,10 @@ body {
   clear: both;
   flex-direction: row; }
 
+  .stretch{
+  align-self: stretch;
+}
+
 
 /* Backgrounds */
 .bg-blue {
@@ -864,7 +870,7 @@ ul {
     .project-link{
       font-family: 'bdariusregular';
       padding-bottom: 50px;
-      font-size: 0.5em;
+      font-size: 0.7em;
       letter-spacing: 0em;
       text-decoration: underline;
       color: grey;
